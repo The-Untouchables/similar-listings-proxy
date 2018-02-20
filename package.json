@@ -1,0 +1,26 @@
+{
+  "name": "similar-listings-proxy",
+  "version": "1.0.0",
+  "description": "similar listings proxy ",
+  "main": "client/app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Untouchables/similar-listings-proxy.git"
+  },
+  "keywords": [
+    "javascript",
+    "proxy",
+    "nodejs",
+    "express",
+    "service-oriented-architecture"
+  ],
+  "author": "Nyah Check",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/The-Untouchables/similar-listings-proxy/issues"
+  },
+  "homepage": "https://github.com/The-Untouchables/similar-listings-proxy#readme"
+}
