@@ -1,0 +1,82 @@
+/* body {
+  box-sizing: content-box;
+} */
+
+.hackbnb-logo {
+    color: #FF5A5F;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 34px;
+    -webkit-transition: 0.25s color;
+    -moz-transition: 0.25s color;
+    transition: 0.25s color;
+}
+
+.hackbnb-pictures {
+    height: 400px;
+    width: 600px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.hackbnb-page {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    overflow: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.hackbnb-body-page {
+    min-height: 1px;
+    overflow: auto;
+    position: relative;
+}
+
+.hackbnb-booking-box {
+    padding-left: 8px;
+    padding-right: 8px;
+    min-height: 1px;
+    position: relative;
+}
+
+.hackbnb-booking {
+    margin-top: 75px;
+    margin-left: 45px;
+    width: 376px;
+    z-index: 3;
+}
+
+.hackbnb-separator {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: block;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.bookings-app-container {
+    width: 376px !important;
+}
+
+@media (min-width: 744px) {
+    .hackbnb-page {
+        padding-right: 24px;
+        padding-left: 24px;
+        max-width: 696px;
+    }
+}
+
+@media (min-width: 1128px) {
+    .hackbnb-page {
+        max-width: 1080px;
+    }
+    .hackbnb-body-page {
+        width: 58.333333333333336%;
+        float: left;
+    }
+    .hackbnb-booking-box {
+        width: 41.66666666666667%;
+        float: left;
+    }
+}
