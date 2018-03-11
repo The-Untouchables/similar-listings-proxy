@@ -21,7 +21,7 @@ ADD . /src/app
 RUN npm install --only=production
 
 # Expose PORT with outside world
-EXPOSE 8080
+EXPOSE 3000
 
 RUN echo "Image build complete."
 
