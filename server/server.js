@@ -1,12 +1,4 @@
-const express = require('express');
-const morgan = require('morgan');
-const path = require('path');
-const app = express();
-const port = process.env.PORT || 3002;
+const app = require('./app.js');
 
-app.use(morgan('dev'));
-app.use(express.static(path.join(__dirname, '../public')));
-
-app.listen(port, () => {
-  console.log(`server running at: http://localhost:${port}`)
-});
+let port = process.env.PORT || 3000;
+app.listen(port, () => console.log('Express listening on port ', port));
