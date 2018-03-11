@@ -14,12 +14,14 @@ RUN mkdir -p /src/app
 # Set working directory
 WORKDIR /src/app
 
+# Add proxy code to dockerfile
+ADD . /src/app
 
 # Install all Deps
 RUN npm install --only=production
 
 # Expose PORT with outside world
-EXPOSE 3000
+EXPOSE 8080
 
 RUN echo "Image build complete."
 
